@@ -5,7 +5,6 @@ console.log(`"The driver's name is ${hacker1}."`);
 let hacker2 = "Mia";
 console.log(`"The navigator's name is ${hacker2}."`);
 
-
 // Iteration 2: Conditionals
 if (hacker1.length > hacker2.length) {
   console.log(
@@ -20,7 +19,6 @@ if (hacker1.length > hacker2.length) {
     `Wow, you both have equally long names, ${hacker1.length} characters!`
   );
 }
-
 
 // Iteration 3: Loops
 
@@ -55,7 +53,7 @@ if (lexOrder < 0) {
   console.log("What?! You both have the same name?");
 }
 
-// BONUS 1:
+// BONUS 1: Lorem ipsum generator
 
 let loremIpsum = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut maximus lectus. In egestas pharetra feugiat. Praesent viverra leo risus, in consectetur sem tincidunt in. Aliquam auctor tempus lacus vel venenatis. Etiam ultricies mattis quam, nec semper ex fringilla a. Quisque quis faucibus nulla. Pellentesque orci lectus, posuere ut est vel, maximus auctor nisl. Suspendisse varius commodo quam, at auctor lacus congue vitae. Pellentesque eu ipsum nibh. Maecenas sit amet magna sapien. Fusce dui lorem, suscipit semper feugiat ut, tincidunt nec sem. Praesent vel lorem lorem. Vestibulum non neque non urna tempor facilisis vel et augue. Curabitur eleifend leo vitae felis gravida dictum. Donec sed ipsum pulvinar, venenatis mauris at, pharetra tellus. Nulla sodales, nibh vel varius congue, nisi nulla tristique mauris, id auctor ligula dolor ac libero.
 Cras ut est vel nulla dignissim pharetra. Ut volutpat tincidunt semper. Cras vel laoreet dolor. Quisque nec nisi et nunc vestibulum ullamcorper. Nullam finibus, felis et ultricies finibus, orci ligula porttitor risus, vel sagittis est justo in ante. Donec ut erat dictum, convallis lacus non, posuere leo. In in mauris ornare, euismod enim quis, euismod ligula. Integer cursus lacus eu leo scelerisque, sit amet maximus est luctus. Quisque pulvinar nibh quis iaculis aliquam. Sed suscipit consectetur erat eu condimentum. Pellentesque aliquam leo vel venenatis pharetra. Donec consequat, libero sit amet sagittis pellentesque, ante lectus egestas dui, et varius enim purus nec justo. Vivamus molestie orci bibendum lacus facilisis, nec ultrices enim mollis.
@@ -85,3 +83,7 @@ for (i = 0; i < loremIpsum.length; i++) {
 }
 
 console.log(etCounter);
+
+// BONUS 2: Palindrome check
+
+let phraseToCheck = "This is a test phrase";
