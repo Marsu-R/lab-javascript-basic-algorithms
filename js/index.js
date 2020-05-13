@@ -87,3 +87,19 @@ console.log(etCounter);
 // BONUS 2: Palindrome check
 
 let phraseToCheck = "This is a test phrase";
+
+function palindromeChecker(phraseToCheck) {
+  let removed = /[^A-Za-z0-9]/g;
+  phraseToCheck = phraseToCheck.toLowerCase().replace(removed, "");
+
+  let len = phraseToCheck.length;
+
+  for (let i = 0; i < len / 2; i++) {
+    if (phraseToCheck[i] !== phraseToCheck[len - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+palindromeChecker(phraseToCheck);
